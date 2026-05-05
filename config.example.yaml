@@ -1,0 +1,16 @@
+# User configuration for druid-mcp
+# Location: ~/.config/druid-mcp/config.yaml
+#
+# Each environment needs a URL and an auth header value.
+# The auth value is the full Authorization header (e.g., "Basic <base64>" or "Bearer <token>").
+
+environments:
+  sb1:
+    url: https://druid.sb1.example.com
+    auth: "Basic <base64-encoded user:pass>"
+  sb2:
+    url: https://druid-sb2.example.internal:8888
+    auth: "Basic <base64-encoded user:pass>"
+  sb5:
+    url: https://druid.sb5.mainsb5.com:443
+    auth: "Basic <base64-encoded user:pass>"
